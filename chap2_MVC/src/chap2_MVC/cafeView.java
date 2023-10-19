@@ -44,7 +44,7 @@ public class cafeView {
 		sc.nextLine();
 		System.out.println("수정할 메뉴 설명 : ");
 		String description = sc.next();
-
+ 
 		//model 에 있는 UpdateMenu를 가지고와서
 		//사용자가 작성한수정 내용 추가하기
 		model.UpdateMenu(description, menuId, cafeId);
