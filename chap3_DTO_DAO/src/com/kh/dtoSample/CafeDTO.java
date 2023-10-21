@@ -8,11 +8,19 @@ public class CafeDTO {
 	private String cafeName;
 	private String address;
 	private String phoneNumber;
+<<<<<<< HEAD
 	private String operatingHours;  
 
 	//생성자
 	//1.기본 생성자
 	public CafeDTO () { 
+=======
+	private String operatingHours;
+
+	//생성자
+	//1.기본 생성자
+	public CafeDTO () {
+>>>>>>> d1e7d1f1dfd893a9d4dcf23294771f5b54c2013e
 		
 	}
 	//2.파라미터 값을 받을 생성자
@@ -28,7 +36,11 @@ public class CafeDTO {
 		return CafeId;
 	}
 	public void setCafeId(int cafeId) {
+<<<<<<< HEAD
 		this.CafeId = cafeId;
+=======
+		CafeId = cafeId;
+>>>>>>> d1e7d1f1dfd893a9d4dcf23294771f5b54c2013e
 	}
 	
 	public String getCafeName() {
