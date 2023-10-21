@@ -2,25 +2,17 @@ package com.kh.dtoSample;
 //CafeDTO : 데이터 전송 객체
 public class CafeDTO {
 	//model sql 열 형식에 맞춰 데이터를 캡슐화하고 getter setter를 활용하여 데이터를 저장하고 내보내는 공간
-	
+	//git 수정
 	//필드 멤버변수 작성
 	private int CafeId;
 	private String cafeName;
 	private String address;
 	private String phoneNumber;
-<<<<<<< HEAD
 	private String operatingHours;  
 
 	//생성자
 	//1.기본 생성자
 	public CafeDTO () { 
-=======
-	private String operatingHours;
-
-	//생성자
-	//1.기본 생성자
-	public CafeDTO () {
->>>>>>> d1e7d1f1dfd893a9d4dcf23294771f5b54c2013e
 		
 	}
 	//2.파라미터 값을 받을 생성자
@@ -36,11 +28,7 @@ public class CafeDTO {
 		return CafeId;
 	}
 	public void setCafeId(int cafeId) {
-<<<<<<< HEAD
 		this.CafeId = cafeId;
-=======
-		CafeId = cafeId;
->>>>>>> d1e7d1f1dfd893a9d4dcf23294771f5b54c2013e
 	}
 	
 	public String getCafeName() {
