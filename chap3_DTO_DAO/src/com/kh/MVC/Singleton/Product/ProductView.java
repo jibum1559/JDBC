@@ -38,7 +38,7 @@ public class ProductView {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+		 
 		
 		if(success) {
 			System.out.println("제품이 성공적으로 추가되었습니다.");
