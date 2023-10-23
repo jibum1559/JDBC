@@ -218,8 +218,8 @@ public class DBConnection {
 			insertState.setDouble(4, 9900.00);
 			insertState.setString(5, "동쪽지점");
 			insertState.setDate(6, Date.valueOf("2023-10-12"));
-			
 			int rowsInsert = insertState.executeUpdate();
+			
 			System.out.println(rowsInsert + "row 추가됨");
 			
 		} catch (SQLException e) {
