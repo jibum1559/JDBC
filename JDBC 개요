@@ -45,3 +45,4 @@ Class.forName(dirver); --JDBC 드라이버 클래스를 동적으로 로드하�
 Connection con = DriverManager.getConnection(url, user, password);
 PreparedStatement selectStateMent = con.preparedStatement(쿼리변수);
 ResultSET resultSet = selectStateMent.executeQuery();
+ 
